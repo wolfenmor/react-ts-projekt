@@ -1,0 +1,32 @@
+    .Header {
+        background-color: lightgreen;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+        padding: 0;
+    }
+    .Header a {
+        font-size: 20px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+
+    }
+    .LiText{
+        margin-right: 10px;
+        width: 150px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .Header a:hover {
+        text-decoration: underline;
+    }
+    .LiText:hover, [class = "active"]{
+        background: snow;
+        transition: background-color 100ms ease-in;
+    }

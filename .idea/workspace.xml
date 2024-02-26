@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c7a0cc9-d0c7-4888-a315-46200e5a3494" name="Changes" comment="project in progress, added first files and Movies.tsx movieService.ts">
+    <list default="true" id="4c7a0cc9-d0c7-4888-a315-46200e5a3494" name="Changes" comment="project in progress, added small/easy pagination">
       <change afterPath="$PROJECT_DIR$/src/Page/MovieDetailsPage.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genre.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genres.tsx" afterDir="false" />
@@ -91,7 +91,7 @@
       <workItem from="1708874332277" duration="24400000" />
       <workItem from="1708902049250" duration="58000" />
       <workItem from="1708902122471" duration="13000" />
-      <workItem from="1708940362060" duration="14816000" />
+      <workItem from="1708940362060" duration="15177000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1708874976731</created>
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708901954015</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="project in progress, added small/easy pagination">
+      <created>1708960167093</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708960167093</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +131,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="project init" />
     <MESSAGE value="project in progress, added first files and Movies.tsx movieService.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="project in progress, added first files and Movies.tsx movieService.ts" />
+    <MESSAGE value="project in progress, added small/easy pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="project in progress, added small/easy pagination" />
   </component>
 </project>

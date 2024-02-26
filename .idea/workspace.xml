@@ -4,38 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c7a0cc9-d0c7-4888-a315-46200e5a3494" name="Changes" comment="project init">
-      <change afterPath="$PROJECT_DIR$/src/Layouts/MainLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layouts/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Page/GenresPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Page/MoviesPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Page/PageError/ErrorPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Page/PageError/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Page/SearchPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Page/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesContainer/Movie.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesContainer/Movies.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesContainer/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/urls.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/collectionInterface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/genreInterface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/movieInterface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/productionCompanyInterface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/productionCountryInterface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/spokenLanguageInterface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/apiService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/movieService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/responseType.ts" afterDir="false" />
+    <list default="true" id="4c7a0cc9-d0c7-4888-a315-46200e5a3494" name="Changes" comment="project in progress, added first files and Movies.tsx movieService.ts">
+      <change afterPath="$PROJECT_DIR$/src/Page/MovieDetailsPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genre.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genres.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MovieDetails.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/ContextProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/UseAppContext.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/Movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/Movie.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/Movies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/Movies.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/collectionInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/movie/collectionInterface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/genreInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/movie/genreInterface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/movie/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/movieInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/movie/movieInterface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/productionCompanyInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/movie/productionCompanyInterface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/productionCountryInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/movie/productionCountryInterface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/spokenLanguageInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/movie/spokenLanguageInterface.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/movieService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/movieService.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +34,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -58,6 +47,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2cres8YQnmoVUqFPSGN0f7GePSf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -66,23 +58,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editing.templates",
-    "ts.external.directory.path": "C:\\Users\\Maksim K\\IdeaProjects\\react-ts-projekt\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Maksim K\\IdeaProjects\\react-ts-projekt\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maksim K\IdeaProjects\react-ts-projekt\src\interfaces\movie" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -91,7 +88,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708874331105</updated>
-      <workItem from="1708874332277" duration="23706000" />
+      <workItem from="1708874332277" duration="24400000" />
+      <workItem from="1708902049250" duration="58000" />
+      <workItem from="1708902122471" duration="13000" />
+      <workItem from="1708940362060" duration="14816000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1708874976731</created>
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708875324877</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="project in progress, added first files and Movies.tsx movieService.ts">
+      <created>1708901954015</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708901954015</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="project init" />
-    <option name="LAST_COMMIT_MESSAGE" value="project init" />
+    <MESSAGE value="project in progress, added first files and Movies.tsx movieService.ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="project in progress, added first files and Movies.tsx movieService.ts" />
   </component>
 </project>

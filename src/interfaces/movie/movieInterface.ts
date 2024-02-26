@@ -5,7 +5,7 @@ import {IProductionCountry} from "./productionCountryInterface";
 import {ISpokenLanguage} from "./spokenLanguageInterface";
 
 export interface IMovie {
-    id: number;
+    id: string;
     imdb_id: number;
     adult: boolean;
     backdrop_path: string;
@@ -24,4 +24,6 @@ export interface IMovie {
     tagline: string;
     video: boolean;
     results: [];
+    page: number;
+    total_pages: number;
 }

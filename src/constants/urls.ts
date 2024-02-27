@@ -5,7 +5,7 @@ const movies = "/discover/movie"
 const urls =  {
     movies: {
         base: movies,
-        byId:(id:any):any => `movie/${id}`
+        byId:(id: string):string => `movie/${id}`
     }
 }
 

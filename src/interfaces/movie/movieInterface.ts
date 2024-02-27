@@ -5,7 +5,7 @@ import {IProductionCountry} from "./productionCountryInterface";
 import {ISpokenLanguage} from "./spokenLanguageInterface";
 
 export interface IMovie {
-    id: string;
+    id: number;
     imdb_id: number;
     adult: boolean;
     backdrop_path: string;

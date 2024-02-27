@@ -11,7 +11,7 @@ interface IProps extends PropsWithChildren {
 const MovieDetailsPage: FC<IProps> = () => {
 
     const {id} = useParams()
-    const [movieDetails, setMovieDetails] = useState<IMovie | any>(null);
+    const [movieDetails, setMovieDetails] = useState<IMovie[] | null>(null);
 
     useEffect(()=> {
         movieService.getById(id).then(({data}) => setMovieDetails([data]))
@@ -19,7 +19,7 @@ const MovieDetailsPage: FC<IProps> = () => {
 
     return (
         <div>
-            {movieDetails && movieDetails.map((movie: IMovie | any) => <MovieDetails key={movie.id} movieDetails={movie}/>)}
+            {movieDetails && movieDetails.map((movie: IMovie) => <MovieDetails key={movie.id} movieDetails={movie}/>)}
         </div>
     );
 };

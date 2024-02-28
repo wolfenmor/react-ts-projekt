@@ -7,7 +7,7 @@ interface IProps extends PropsWithChildren {
 const SearchPage: FC<IProps> = () => {
 return(
 <div>
-SearchPage
+    <input></input>
 </div>
 );
 };

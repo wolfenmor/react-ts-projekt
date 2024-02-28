@@ -11,7 +11,7 @@ const Movie: FC<IProps> = ({movie}) => {
     return (
         <div>
             <img src={`https://image.tmdb.org/t/p/w200/${poster_path}`} alt={original_title}/>
-            <div><NavLink to={`/movies/${id}` }>{original_title}</NavLink></div>
+            <div><NavLink to={`/movies/${id}`}>{original_title}</NavLink></div>
         </div>
     );
 };

@@ -5,10 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c7a0cc9-d0c7-4888-a315-46200e5a3494" name="Changes" comment="project in progress, added small details of the MovieDetailsPage.tsx">
-      <change afterPath="$PROJECT_DIR$/src/interfaces/movie/resultsInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/MoviesOfTheGenre/MovieOfTheGenre.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/MoviesOfTheGenre/MoviesOfTheGenre.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/UseGenrePageQuery.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/UseMoviePageQuery.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/genreService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/setStateType.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page/GenresPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/GenresPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Page/MovieDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/MovieDetailsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page/SearchPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/SearchPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/Genre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genre.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/Genres.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genres.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/Movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/Movie.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/MovieDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MovieDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/Movies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/Movies.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/urls.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/urls.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/movie/genreInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/movie/genreInterface.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/interfaces/movie/movieInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/movie/movieInterface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/movieService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/movieService.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +36,8 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -62,6 +77,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maksim K\IdeaProjects\react-ts-projekt\src\components\GenresContainer\MoviesOfTheGenre" />
       <recent name="C:\Users\Maksim K\IdeaProjects\react-ts-projekt\src\interfaces\movie" />
     </key>
   </component>
@@ -78,7 +94,8 @@
       <workItem from="1708902122471" duration="13000" />
       <workItem from="1708940362060" duration="15275000" />
       <workItem from="1708968993447" duration="12638000" />
-      <workItem from="1709038327778" duration="1060000" />
+      <workItem from="1709038327778" duration="1175000" />
+      <workItem from="1709071671364" duration="32713000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1708874976731</created>
@@ -122,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708989630644</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="project in progress, added small details of the MovieDetailsPage.tsx">
+      <created>1709039506607</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709039506607</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

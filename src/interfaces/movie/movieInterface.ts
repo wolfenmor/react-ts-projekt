@@ -12,7 +12,6 @@ export interface IMovie {
     poster_path: string;
     belongs_to_collection: ICollection | null;
     budget: number;
-    genres: IGenres;
     original_language: string;
     original_title: string;
     overview: string;
@@ -26,4 +25,6 @@ export interface IMovie {
     results: [];
     page: number;
     total_pages: number;
+    "genre_ids": number[]
+    genres: IGenres[];
 }

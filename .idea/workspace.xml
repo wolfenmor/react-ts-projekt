@@ -4,27 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c7a0cc9-d0c7-4888-a315-46200e5a3494" name="Changes" comment="project in progress, added small details of the MovieDetailsPage.tsx">
-      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/MoviesOfTheGenre/MovieOfTheGenre.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/MoviesOfTheGenre/MoviesOfTheGenre.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/UseGenrePageQuery.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/UseMoviePageQuery.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/genreService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/setStateType.ts" afterDir="false" />
+    <list default="true" id="4c7a0cc9-d0c7-4888-a315-46200e5a3494" name="Changes" comment="project in progress, added genres, all pagination and MoviesOfTheGenre.tsx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/GenresPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/GenresPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/MovieDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/MovieDetailsPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/SearchPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/SearchPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/Genre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genre.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/Genres.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genres.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/Movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/Movie.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/MovieDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MovieDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/Movies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/Movies.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/urls.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/urls.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/movie/genreInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/movie/genreInterface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/movie/movieInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/movie/movieInterface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/movieService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/movieService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/ContextProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/ContextProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/UseAppContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/UseAppContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +20,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -95,7 +81,8 @@
       <workItem from="1708940362060" duration="15275000" />
       <workItem from="1708968993447" duration="12638000" />
       <workItem from="1709038327778" duration="1175000" />
-      <workItem from="1709071671364" duration="32713000" />
+      <workItem from="1709071671364" duration="33361000" />
+      <workItem from="1709232901585" duration="4184000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1708874976731</created>
@@ -146,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709039506607</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="project in progress, added genres, all pagination and MoviesOfTheGenre.tsx">
+      <created>1709163161767</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709163161767</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +152,7 @@
     <MESSAGE value="project in progress, added first files and Movies.tsx movieService.ts" />
     <MESSAGE value="project in progress, added small/easy pagination" />
     <MESSAGE value="project in progress, added small details of the MovieDetailsPage.tsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="project in progress, added small details of the MovieDetailsPage.tsx" />
+    <MESSAGE value="project in progress, added genres, all pagination and MoviesOfTheGenre.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="project in progress, added genres, all pagination and MoviesOfTheGenre.tsx" />
   </component>
 </project>

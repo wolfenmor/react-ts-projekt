@@ -4,12 +4,13 @@ interface IProps extends PropsWithChildren {
 
 }
 
-const Context = createContext(null);
+const Context = createContext<any>(null);
 const ContextProvider: FC<IProps> = ({children}) => {
-    const [trigger, setTrigger] = useState(null);
+    const [trigger, setTrigger] = useState<boolean>(false);
     
     const changeTrigger = () => {
-      setTrigger((prev: boolean)=> (!prev));
+      setTrigger((prev: boolean)=> !prev);
+        console.log(trigger)
     }
     return (
         <div>

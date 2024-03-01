@@ -8,10 +8,10 @@ interface IProps extends PropsWithChildren {
 
 const MoviesPage: FC<IProps> = () => {
     return (
-        <div>
+        <>
             <Outlet/>
             <Movies/>
-        </div>
+        </>
     );
 };
 

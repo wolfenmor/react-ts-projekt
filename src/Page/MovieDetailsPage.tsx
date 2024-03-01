@@ -24,9 +24,9 @@ const MovieDetailsPage: FC<IProps> = () => {
     console.log(movieDetails)
 
     return (
-        <div>
+        <>
             {movieDetails && movieDetails.map((movie: IMovie) => <MovieDetails key={movie.id} movieDetails={movie}/>)}
-        </div>
+        </>
     );
 };
 

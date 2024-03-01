@@ -7,9 +7,9 @@ interface IProps extends PropsWithChildren {
 
 const GenresPage: FC<IProps> = () => {
     return (
-        <div>
+        <>
             <Genres/>
-        </div>
+        </>
     );
 };
 

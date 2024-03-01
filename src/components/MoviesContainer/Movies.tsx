@@ -3,7 +3,7 @@ import {IMovie} from "../../interfaces/movie";
 import {movieService} from "../../services/movieService";
 import {Movie} from "./Movie";
 import {UseMoviePageQuery} from "../../hooks/UseMoviePageQuery";
-
+import css from "./MovieCss/movies.module.css"
 interface IProps extends PropsWithChildren {
 
 }
@@ -22,9 +22,9 @@ const Movies: FC<IProps> = () => {
             }
         )
     }, [page])
-    console.log(movies)
+
     return (
-        <div>
+        <div className={css.Container}>
             {movies.map(movie => <Movie key={movie.id} movie={movie}/>)}
             <button disabled={!prevNext.prev} onClick={prevPage}>Prev</button>
             <button disabled={!prevNext.next} onClick={nextPage}>Next</button>

@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c7a0cc9-d0c7-4888-a315-46200e5a3494" name="Changes" comment="project in progress, added genres, all pagination and MoviesOfTheGenre.tsx">
+    <list default="true" id="4c7a0cc9-d0c7-4888-a315-46200e5a3494" name="Changes" comment="project in progress, added button that changes theme (but without changing itself)">
+      <change afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MovieCss/movie.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MovieCss/movies.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stylesheets/cssGray.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stylesheets/cssWhite.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layouts/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/MainLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page/GenresPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/GenresPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page/MovieDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/MovieDetailsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page/MoviesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/MoviesPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page/SearchPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/SearchPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/ContextProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/ContextProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/UseAppContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/UseAppContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/Movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/Movie.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/Movies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/Movies.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +91,8 @@
       <workItem from="1708968993447" duration="12638000" />
       <workItem from="1709038327778" duration="1175000" />
       <workItem from="1709071671364" duration="33361000" />
-      <workItem from="1709232901585" duration="4184000" />
+      <workItem from="1709232901585" duration="4767000" />
+      <workItem from="1709288009590" duration="9813000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1708874976731</created>
@@ -140,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709163161767</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="project in progress, added button that changes theme (but without changing itself)">
+      <created>1709238047118</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709238047118</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +170,7 @@
     <MESSAGE value="project in progress, added small/easy pagination" />
     <MESSAGE value="project in progress, added small details of the MovieDetailsPage.tsx" />
     <MESSAGE value="project in progress, added genres, all pagination and MoviesOfTheGenre.tsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="project in progress, added genres, all pagination and MoviesOfTheGenre.tsx" />
+    <MESSAGE value="project in progress, added button that changes theme (but without changing itself)" />
+    <option name="LAST_COMMIT_MESSAGE" value="project in progress, added button that changes theme (but without changing itself)" />
   </component>
 </project>

@@ -7,11 +7,11 @@ interface IProps extends PropsWithChildren {
 }
 
 const Header: FC<IProps> = () => {
-    const [trigger, changeTrigger] = UseAppContext()
+    const [, changeTrigger] = UseAppContext()
 
 
     return (
-        <ul className={trigger?null :css.Header}>
+        <ul className={css.Header}>
             <li className={css.LiText}><NavLink to={"movies"}>Movies</NavLink></li>
             <li className={css.LiText}><NavLink to={"Genres"}>Genres</NavLink></li>
             <li className={css.LiText}><NavLink to={"movies/search"}>Search</NavLink></li>

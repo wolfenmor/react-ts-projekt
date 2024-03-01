@@ -1,11 +1,15 @@
     .Header {
-        background-color: lightgreen;
+        background-color: black;
         height: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
         list-style-type: none;
         padding: 0;
+        margin-top: 0;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
     }
     .Header a {
         font-size: 20px;
@@ -24,9 +28,13 @@
         justify-content: center;
     }
     .Header a:hover {
-        text-decoration: underline;
+        color: red;
     }
     .LiText:hover, [class = "active"]{
-        background: snow;
-        transition: background-color 100ms ease-in;
+        color: snow;
+        transition: color 100ms ease-in;
     }
+body{
+    margin: 0;
+    padding: 0;
+}

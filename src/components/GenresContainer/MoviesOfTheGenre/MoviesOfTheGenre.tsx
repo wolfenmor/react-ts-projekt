@@ -4,7 +4,7 @@ import {movieService} from "../../../services/movieService";
 import {IMovie} from "../../../interfaces/movie";
 import {MovieOfTheGenre} from "./MovieOfTheGenre";
 import {UseGenrePageQuery} from "../../../hooks/UseGenrePageQuery";
-
+import css from "./moviesOfTheGenre.module.css"
 interface IProps extends PropsWithChildren {
 
 }
@@ -26,10 +26,14 @@ const MoviesOfTheGenre: FC<IProps> = () => {
 
 return(
     <div>
+    <div className={css.Container}>
         <h3>{name}</h3>
         {moviesGenre && moviesGenre.map((movie : IMovie) => <MovieOfTheGenre key={movie.id} movie={movie}/>)}
-        <button disabled={!prevNext.prev} onClick={prevPage}>prev</button>
-        <button disabled={!prevNext.next} onClick={nextPage}>next</button>
+    </div>
+    <div>
+    <button disabled={!prevNext.prev} onClick={prevPage}>prev</button>
+    <button disabled={!prevNext.next} onClick={nextPage}>next</button>
+    </div>
     </div>
 );
 };

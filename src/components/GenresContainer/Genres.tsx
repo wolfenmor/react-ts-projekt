@@ -6,6 +6,7 @@ import {movieService} from "../../services/movieService";
 import {IMovie} from "../../interfaces/movie";
 import {Movie} from "../MoviesContainer";
 import {Genre} from "./Genre";
+import css from "./genres.module.css"
 
 interface IProps extends PropsWithChildren {
 
@@ -21,7 +22,7 @@ const Genres: FC<IProps> = () => {
     }, [])
 
     return (
-        <div>
+        <div className={css.Genres}>
             {genres && genres.map(genre => <Genre key={genre.id} genre={genre}/>)}
         </div>
     );

@@ -4,22 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c7a0cc9-d0c7-4888-a315-46200e5a3494" name="Changes" comment="project in progress, added button that changes theme (but without changing itself)">
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MovieCss/movie.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MovieCss/movies.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/cssGray.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/cssWhite.module.css" afterDir="false" />
+    <list default="true" id="4c7a0cc9-d0c7-4888-a315-46200e5a3494" name="Changes" comment="project in progress, added first css, and black/white theme">
+      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/MoviesOfTheGenre/movieOfTheGenre.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/MoviesOfTheGenre/moviesOfTheGenre.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/genre.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/genres.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stylesheets/input.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layouts/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/MainLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/GenresPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/GenresPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/MovieDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/MovieDetailsPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/MoviesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/MoviesPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/SearchPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/SearchPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page/SearchPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/Genre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genre.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/Genres.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genres.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/MoviesOfTheGenre/MovieOfTheGenre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/MoviesOfTheGenre/MovieOfTheGenre.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/MoviesOfTheGenre/MoviesOfTheGenre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/MoviesOfTheGenre/MoviesOfTheGenre.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/Movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/Movie.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/Movies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/Movies.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/MovieCss/movie.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MovieCss/movie.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/MovieCss/movies.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MovieCss/movies.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +94,8 @@
       <workItem from="1709038327778" duration="1175000" />
       <workItem from="1709071671364" duration="33361000" />
       <workItem from="1709232901585" duration="4767000" />
-      <workItem from="1709288009590" duration="9813000" />
+      <workItem from="1709288009590" duration="9994000" />
+      <workItem from="1709316612520" duration="6245000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1708874976731</created>
@@ -157,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709238047118</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="project in progress, added first css, and black/white theme">
+      <created>1709302538130</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709302538130</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +181,7 @@
     <MESSAGE value="project in progress, added small details of the MovieDetailsPage.tsx" />
     <MESSAGE value="project in progress, added genres, all pagination and MoviesOfTheGenre.tsx" />
     <MESSAGE value="project in progress, added button that changes theme (but without changing itself)" />
-    <option name="LAST_COMMIT_MESSAGE" value="project in progress, added button that changes theme (but without changing itself)" />
+    <MESSAGE value="project in progress, added first css, and black/white theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="project in progress, added first css, and black/white theme" />
   </component>
 </project>

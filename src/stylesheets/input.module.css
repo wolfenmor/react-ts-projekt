@@ -1,0 +1,28 @@
+.Input {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.SearchIcon {
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: -35px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.SearchIcon:hover {
+    background-color: #f0f0f0;
+}
+img {
+    width: 20px;
+    height: 20px;
+}

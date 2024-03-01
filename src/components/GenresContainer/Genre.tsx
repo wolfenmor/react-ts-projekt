@@ -1,7 +1,7 @@
 import {FC, PropsWithChildren} from "react";
 import {IGenres} from "../../interfaces/movie/genreInterface";
 import {NavLink} from "react-router-dom";
-
+import css from "./genre.module.css"
 interface IProps extends PropsWithChildren {
     genre: IGenres
 }
@@ -9,7 +9,7 @@ interface IProps extends PropsWithChildren {
 const Genre: FC<IProps> = ({genre}) => {
     console.log(genre)
     return (
-        <div>
+        <div className={css.Genre}>
             <NavLink to={`/genre/${genre.id}/${genre.name}`}>{genre.name}</NavLink>
         </div>
     );

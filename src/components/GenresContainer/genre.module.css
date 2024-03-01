@@ -1,0 +1,12 @@
+.Genre {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.Genre a {
+    text-decoration: none;
+    margin-top: 50px;
+}

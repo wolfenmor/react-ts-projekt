@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c7a0cc9-d0c7-4888-a315-46200e5a3494" name="Changes" comment="project in progress, added searchIcon and input">
-      <change afterPath="$PROJECT_DIR$/src/components/SearchContainer/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Page/SearchPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchContainer/searchCss.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchContainer/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchContainer/Search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/urls.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/urls.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/movieService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/movieService.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +24,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -87,7 +89,8 @@
       <workItem from="1709316612520" duration="6337000" />
       <workItem from="1709388551784" duration="5385000" />
       <workItem from="1709405372174" duration="5127000" />
-      <workItem from="1709417306595" duration="3961000" />
+      <workItem from="1709417306595" duration="3979000" />
+      <workItem from="1709465256154" duration="8728000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1708874976731</created>
@@ -166,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709335335440</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="project in progress, added searchIcon and input">
+      <created>1709424186934</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709424186934</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

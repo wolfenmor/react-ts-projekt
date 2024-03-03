@@ -1,6 +1,6 @@
 import {FC, PropsWithChildren, useEffect, useState} from "react";
 import css from "./Header.module.css"
-import {NavLink} from "react-router-dom";
+import {NavLink, useNavigate} from "react-router-dom";
 import {UseAppContext} from "../../hooks/UseAppContext";
 import cssInput from "../../stylesheets/input.module.css"
 import {IMovie} from "../../interfaces/movie";
@@ -15,22 +15,12 @@ interface IProps extends PropsWithChildren {
 const Header: FC<IProps> = () => {
     const [, changeTrigger] = UseAppContext()
 
-    const {register, handleSubmit, reset} = useForm<any>();
+    const {register, handleSubmit} = useForm<any>();
+    const navigate = useNavigate()
 
-    const [searchResults, setSearchResults] = useState<any>(null);
-
-    useEffect(()=> {
-        movieService.getAll().then(({data}) => setSearchResults(data))
-    }, [])
     const search: SubmitHandler<IMovie> = async (e: any) => {
-        const searchTerm = e.search.trim().toLowerCase();
-        const filteredMovies = searchResults.results.filter((movie: IMovie) =>
-            movie.original_title.trim().toLowerCase().includes(searchTerm)
-        );
-        filteredMovies.forEach((movie: IMovie) => {
-            console.log(movie);
-            reset()
-        });
+        const searchTerm = e.search;
+        navigate(`search/${searchTerm}`)
     }
     return (
         <ul className={css.Header}>

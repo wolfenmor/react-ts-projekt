@@ -1,5 +1,6 @@
 import {FC, PropsWithChildren} from "react";
 import {Outlet} from "react-router-dom";
+
 import {Header} from "../components/Header";
 import {UseAppContext} from "../hooks/UseAppContext";
 import cssGray from "../stylesheets/cssGray.module.css"

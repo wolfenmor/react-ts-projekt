@@ -1,6 +1,7 @@
 import {FC, PropsWithChildren} from "react";
-import {IMovie} from "../../interfaces/movie";
 import {NavLink} from "react-router-dom";
+
+import {IMovie} from "../../interfaces/movie";
 import css from "./MovieCss/movie.module.css"
 import {Rating} from "../../Ratings/Ratings";
 interface IProps extends PropsWithChildren {

@@ -1,10 +1,7 @@
 import {FC, PropsWithChildren, useEffect, useState} from "react";
+
 import {IGenres} from "../../interfaces/movie/genreInterface";
 import {genreService} from "../../services/genreService";
-import {ISetState} from "../../types/setStateType";
-import {movieService} from "../../services/movieService";
-import {IMovie} from "../../interfaces/movie";
-import {Movie} from "../MoviesContainer";
 import {Genre} from "./Genre";
 import css from "./genres.module.css"
 

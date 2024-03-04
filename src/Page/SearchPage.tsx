@@ -1,5 +1,6 @@
 import {FC, PropsWithChildren, useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
+
 import {Search} from "../components/SearchContainer/Search";
 import {movieService} from "../services/movieService";
 import {IMovie} from "../interfaces/movie";

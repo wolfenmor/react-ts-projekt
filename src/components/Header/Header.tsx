@@ -1,11 +1,11 @@
-import {FC, PropsWithChildren, useEffect, useState} from "react";
-import css from "./Header.module.css"
+import {FC, PropsWithChildren} from "react";
 import {NavLink, useNavigate} from "react-router-dom";
+import {SubmitHandler, useForm} from "react-hook-form";
+
+import css from "./Header.module.css"
 import {UseAppContext} from "../../hooks/UseAppContext";
 import cssInput from "../../stylesheets/input.module.css"
 import {IMovie} from "../../interfaces/movie";
-import {SubmitHandler, useForm} from "react-hook-form";
-import {movieService} from "../../services/movieService";
 import {Search} from "../SearchContainer/Search";
 
 interface IProps extends PropsWithChildren {

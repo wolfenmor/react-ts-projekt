@@ -1,11 +1,11 @@
 .Poster img {
-    position: fixed;
     height: 200px;
     margin-top: 150px;
 }
 .Poster h1 {
     position: fixed;
     margin-top: 100px;
+    color: #393939;
 }
 .Box {
     height: 500px;
@@ -19,7 +19,6 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-    justify-content: flex-end;
 }
 .Container a {
     color: snow;
@@ -39,6 +38,5 @@ color: #393939;
     height: 50px;
 }
 .Container {
-    height: 500px;
-    align-items: flex-end;
+    margin-top: 50px;
 }

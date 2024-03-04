@@ -1,6 +1,7 @@
 import {FC, PropsWithChildren} from "react";
-import {IMovie} from "../../interfaces/movie";
 import {NavLink} from "react-router-dom";
+
+import {IMovie} from "../../interfaces/movie";
 import {Rating} from "../../Ratings/Ratings";
 import css from "./SearchCss/Search.module.css"
 

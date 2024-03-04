@@ -1,7 +1,7 @@
-import {FC, PropsWithChildren, useEffect, useState} from "react";
+import {FC, PropsWithChildren} from "react";
+import {NavLink} from "react-router-dom";
+
 import {IMovie} from "../../interfaces/movie";
-import {IGenres} from "../../interfaces/movie/genreInterface";
-import {NavLink, useNavigate} from "react-router-dom";
 import css from "./MovieCss/movieDetails.module.css"
 
 interface IProps extends PropsWithChildren {
@@ -27,7 +27,7 @@ const MovieDetails: FC<IProps> = ({movieDetails}) => {
                     <p><span className={css.Key}>Runtime min:</span><span className={css.Value}> {runtime}</span></p>
 
 
-
+                    <span className={css.Key}>Companies:</span> {movieDetails.production_companies.map(movie => <span key={movie.id} className={css.Value}><p key={movie.id}>{movie.name}</p></span>)}
                      <span className={css.Key}>Country: </span> {movieDetails.production_countries.map(movie => <span key={movie.iso_3166_1} className={css.Value}><p key={movie.iso_3166_1}>{movie.name}</p></span>)}
                 </div>
                 <p><span className={css.Value}>{overview}</span></p>

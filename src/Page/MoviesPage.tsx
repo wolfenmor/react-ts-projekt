@@ -9,7 +9,6 @@ interface IProps extends PropsWithChildren {
 const MoviesPage: FC<IProps> = () => {
     return (
         <>
-            <Outlet/>
             <Movies/>
         </>
     );

@@ -25,9 +25,13 @@ const Movies: FC<IProps> = () => {
 
     return (
         <div className={css.Container}>
-            {movies.map(movie => <Movie key={movie.id} movie={movie}/>)}
-            <button disabled={!prevNext.prev} onClick={prevPage}>Prev</button>
-            <button disabled={!prevNext.next} onClick={nextPage}>Next</button>
+            <div className={css.Box}>
+                {movies.map(movie => <Movie key={movie.id} movie={movie}/>)}
+            </div>
+            <div className={css.Button}>
+                <button disabled={!prevNext.prev} onClick={prevPage}>Prev</button>
+                <button disabled={!prevNext.next} onClick={nextPage}>Next</button>
+            </div>
         </div>
     );
 };

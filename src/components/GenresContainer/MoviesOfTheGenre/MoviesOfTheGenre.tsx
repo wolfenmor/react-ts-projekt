@@ -24,10 +24,19 @@ const MoviesOfTheGenre: FC<IProps> = () => {
         )
     }, [page])
 
+
 return(
-    <div>
     <div className={css.Container}>
-        <h3>{name}</h3>
+        <div className={css.GenreBox}>
+            {moviesGenre && moviesGenre.length > 0 && (
+                <img className={css.GenreImg} src={`https://image.tmdb.org/t/p/w200/${moviesGenre[1].backdrop_path}`} alt={moviesGenre[0].original_title} />
+            )}
+            <div>
+            <p>Movies of the Genre</p>
+            <h3>{name}</h3>
+            </div>
+        </div>
+    <div className={css.Box}>
         {moviesGenre && moviesGenre.map((movie : IMovie) => <MovieOfTheGenre key={movie.id} movie={movie}/>)}
     </div>
     <div>

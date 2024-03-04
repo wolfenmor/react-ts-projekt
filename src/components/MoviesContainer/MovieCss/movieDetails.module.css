@@ -1,0 +1,44 @@
+.Poster img {
+    position: fixed;
+    height: 200px;
+    margin-top: 150px;
+}
+.Poster h1 {
+    position: fixed;
+    margin-top: 100px;
+}
+.Box {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.Info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Container a {
+    color: snow;
+}
+.Container a:hover {
+    color: red;
+    transition: color 0.3s ease;
+}
+.Key{
+    color: #fff;
+}
+.Value {
+color: #393939;
+}
+.Imdb {
+    width: 50px;
+    height: 50px;
+}
+.Container {
+    height: 500px;
+    align-items: flex-end;
+}

@@ -4,7 +4,7 @@ import {Search} from "../components/SearchContainer/Search";
 import {movieService} from "../services/movieService";
 import {IMovie} from "../interfaces/movie";
 import {UseMoviePageQuery} from "../hooks/UseMoviePageQuery";
-
+import css from "../components/SearchContainer/SearchCss/Searches.module.css"
 interface IProps extends PropsWithChildren {
 
 }
@@ -26,10 +26,14 @@ const SearchPage: FC<IProps> = () => {
     }, [title, page])
     console.log(movies)
     return (
-        <div>
-            {movies && movies.map((movie: IMovie) => <Search key={movie.id} movie={movie}/>)}
-            <button disabled={!prevNext.prev} onClick={prevPage}>prev</button>
-            <button disabled={!prevNext.next} onClick={nextPage}>next</button>
+        <div className={css.Container}>
+            <div className={css.Block}>
+                {movies.map((movie: IMovie) => <Search key={movie.id} movie={movie}/>)}
+            </div>
+            <div className={css.Button}>
+                <button disabled={!prevNext.prev} onClick={prevPage}>Prev</button>
+                <button disabled={!prevNext.next} onClick={nextPage}>Next</button>
+            </div>
         </div>
     );
 };

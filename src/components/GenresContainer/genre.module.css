@@ -4,9 +4,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
+    background-color: #393939;
+    margin: 3px;
 }
 .Genre a {
+    color: white;
     text-decoration: none;
+    margin-top: 50px;
+}
+.Genre a:hover {
+    color: red;
+}
+.Genre:nth-child(1) {
     margin-top: 50px;
 }

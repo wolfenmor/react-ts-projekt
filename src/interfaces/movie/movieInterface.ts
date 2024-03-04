@@ -27,4 +27,5 @@ export interface IMovie {
     total_pages: number;
     "genre_ids": number[]
     genres: IGenres[];
+    vote_average: number;
 }

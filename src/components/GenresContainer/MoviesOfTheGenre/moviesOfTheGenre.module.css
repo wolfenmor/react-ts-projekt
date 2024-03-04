@@ -24,6 +24,8 @@
     z-index: 1;
     position: absolute;
     color: snow;
+    font-size: 50px;
+    right: 50rem;
 }
 .GenreBox p {
     top: 150px;

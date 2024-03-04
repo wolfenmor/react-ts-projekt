@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c7a0cc9-d0c7-4888-a315-46200e5a3494" name="Changes" comment="project in progress, added allDetails, search">
+    <list default="true" id="4c7a0cc9-d0c7-4888-a315-46200e5a3494" name="Changes" comment="project in progress, added a number of the pagination">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layouts/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/MainLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/GenresPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/GenresPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/MovieDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/MovieDetailsPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/MoviesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/MoviesPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/SearchPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/SearchPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/Genre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genre.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/Genres.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genres.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/MoviesOfTheGenre/MovieOfTheGenre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/MoviesOfTheGenre/MovieOfTheGenre.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/MoviesOfTheGenre/MoviesOfTheGenre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/MoviesOfTheGenre/MoviesOfTheGenre.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/Movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/Movie.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/MoviesOfTheGenre/moviesOfTheGenre.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/MoviesOfTheGenre/moviesOfTheGenre.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/MovieCss/movieDetails.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MovieCss/movieDetails.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/MovieDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/MovieDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesContainer/Movies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesContainer/Movies.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchContainer/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchContainer/Search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/UseAppContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/UseAppContext.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stylesheets/cssWhite.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/cssWhite.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +89,8 @@
       <workItem from="1709465256154" duration="10317000" />
       <workItem from="1709490723559" duration="3744000" />
       <workItem from="1709494909891" duration="23406000" />
-      <workItem from="1709536168213" duration="3778000" />
+      <workItem from="1709536168213" duration="3866000" />
+      <workItem from="1709540914744" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1708874976731</created>
@@ -211,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709522781307</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="project in progress, added a number of the pagination">
+      <created>1709540327557</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1709540327557</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +222,7 @@
     <MESSAGE value="project in progress, added searchIcon and input" />
     <MESSAGE value="project in progress, added search" />
     <MESSAGE value="project in progress, added allDetails, search" />
-    <option name="LAST_COMMIT_MESSAGE" value="project in progress, added allDetails, search" />
+    <MESSAGE value="project in progress, added a number of the pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="project in progress, added a number of the pagination" />
   </component>
 </project>

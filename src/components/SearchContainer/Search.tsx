@@ -9,7 +9,7 @@ interface IProps extends PropsWithChildren {
 }
 
 const Search: FC<IProps> = ({movie}) => {
-    const {id, poster_path, original_title, vote_average} = movie;
+    const {poster_path, original_title, vote_average} = movie;
     return (
         <div className={css.Box}>
             <img src={`https://image.tmdb.org/t/p/w200/${poster_path}`} alt={original_title}/>

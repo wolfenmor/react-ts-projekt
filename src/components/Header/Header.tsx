@@ -15,12 +15,13 @@ interface IProps extends PropsWithChildren {
 const Header: FC<IProps> = () => {
     const [, changeTrigger] = UseAppContext()
 
-    const {register, handleSubmit} = useForm<any>();
+    const {register, handleSubmit, reset} = useForm<any>();
     const navigate = useNavigate()
 
     const search: SubmitHandler<IMovie> = async (e: any) => {
         const searchTerm = e.search;
         navigate(`search/${searchTerm}`)
+        reset()
     }
     return (
         <ul className={css.Header}>

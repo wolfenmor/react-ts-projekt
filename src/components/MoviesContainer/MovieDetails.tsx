@@ -26,7 +26,6 @@ const MovieDetails: FC<IProps> = ({movieDetails}) => {
                     <span className={css.Key}>Genres:</span> {movieDetails && genres.map(genre => <span key={genre.id} className={css.Value}><h5 key={genre.id}><NavLink to={`/genre/${genre.id}/${genre.name}`}>{genre.name} </NavLink></h5></span>)}
                     <p><span className={css.Key}>Runtime min:</span><span className={css.Value}> {runtime}</span></p>
 
-
                     <span className={css.Key}>Companies:</span> {movieDetails.production_companies.map(movie => <span key={movie.id} className={css.Value}><p key={movie.id}>{movie.name}</p></span>)}
                      <span className={css.Key}>Country: </span> {movieDetails.production_countries.map(movie => <span key={movie.iso_3166_1} className={css.Value}><p key={movie.iso_3166_1}>{movie.name}</p></span>)}
                 </div>

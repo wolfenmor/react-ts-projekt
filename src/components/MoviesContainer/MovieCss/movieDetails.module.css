@@ -26,6 +26,7 @@
 .Container a:hover {
     color: red;
     transition: color 0.3s ease;
+    text-decoration: none;
 }
 .Key{
     color: #fff;
@@ -42,4 +43,7 @@ color: #393939;
 }
 .Box p {
     font-size: 30px;
+}
+.Box span {
+    font-size: 20px;
 }

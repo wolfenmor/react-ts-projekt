@@ -5,8 +5,8 @@ import {SubmitHandler, useForm} from "react-hook-form";
 import css from "./Header.module.css"
 import {UseAppContext} from "../../hooks/UseAppContext";
 import cssInput from "../../stylesheets/input.module.css"
-import {IMovie} from "../../interfaces/movie";
 import {Search} from "../SearchContainer/Search";
+import {ISearchFormData} from "../../interfaces/searchInterface";
 
 interface IProps extends PropsWithChildren {
 
@@ -15,11 +15,11 @@ interface IProps extends PropsWithChildren {
 const Header: FC<IProps> = () => {
     const [, changeTrigger] = UseAppContext()
 
-    const {register, handleSubmit, reset} = useForm<any>();
+    const {register, handleSubmit, reset} = useForm<ISearchFormData>();
     const navigate = useNavigate()
 
-    const search: SubmitHandler<IMovie> = async (e: any) => {
-        const searchTerm = e.search;
+    const search: SubmitHandler<ISearchFormData> = async (data) => {
+        const searchTerm = data.search;
         navigate(`search/${searchTerm}`)
         reset()
     }

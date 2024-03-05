@@ -17,10 +17,13 @@ const MoviesOfTheGenre: FC<IProps> = () => {
 
     const {prevPage, nextPage, page} = UseGenrePageQuery();
 
+    const [currentPage, setCurrentPage] = useState<number>(1);
+
     useEffect(() => {
         movieService.getByGenreId(id, page).then(({data}) => {
                 setMoviesGenre(data.results)
             setPrevNext({prev: data.page > 1, next: data.page < data.total_pages})
+            setCurrentPage(data.page)
             }
         )
     }, [page])
@@ -40,8 +43,9 @@ return(
     <div className={css.Box}>
         {moviesGenre && moviesGenre.map((movie : IMovie) => <MovieOfTheGenre key={movie.id} movie={movie}/>)}
     </div>
-    <div>
+    <div className={css.Buttons}>
     <button disabled={!prevNext.prev} onClick={prevPage}>prev</button>
+        <div>{currentPage}</div>
     <button disabled={!prevNext.next} onClick={nextPage}>next</button>
     </div>
     </div>

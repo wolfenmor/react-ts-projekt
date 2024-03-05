@@ -18,10 +18,13 @@ const SearchPage: FC<IProps> = () => {
     const [prevNext, setPrevNext] = useState({prev: null, next: null});
     const {prevPage, nextPage, page} = UseMoviePageQuery();
 
+    const [currentPage, setCurrentPage] = useState<number>(1);
+
     useEffect(() => {
         movieService.getBySearch(title, page).then(({data}) => {
                 setMovies(data.results)
                 setPrevNext({prev: data.page > 1, next: data.page < data.total_pages})
+            setCurrentPage(data.page)
             }
         )
     }, [title, page])
@@ -33,6 +36,7 @@ const SearchPage: FC<IProps> = () => {
             </div>
             <div className={css.Button}>
                 <button disabled={!prevNext.prev} onClick={prevPage}>Prev</button>
+                <div>{currentPage}</div>
                 <button disabled={!prevNext.next} onClick={nextPage}>Next</button>
             </div>
         </div>
